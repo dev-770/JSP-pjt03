@@ -1,0 +1,46 @@
+.logo_address {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  margin: auto;
+}
+.copy {
+  background-color: #171717;
+  width: 100%;
+  height: 15rem;
+}
+.copy address {
+  margin-left: 2em;
+  color:#fff;
+  font-size: 1.6rem;
+  padding: 1em 0 1em 1em;
+  font-style: normal;
+  margin: auto;
+}
+.copy p {
+  font-size: 1.6rem;
+  padding: 0 0 0 1em;
+}
+
+@media screen and (max-width: 800px) {
+  .logo_address {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+  }
+  .copy {
+    background-color: #171717;
+    height: 15rem;
+  }
+  .copy address {
+    margin-left: 2em;
+    color:#fff;
+    font-size: 1.0rem;
+    padding: 1em 0 1em 1em;
+    font-style: normal;
+  }
+  .copy p {
+    font-size: 1.0rem;
+    padding: 0 0 0 1em;
+  }
+}

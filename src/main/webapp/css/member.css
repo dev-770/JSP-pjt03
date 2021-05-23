@@ -1,0 +1,153 @@
+#section1 {
+  width: 100%;
+  height: 800px;
+
+}
+.back_color {
+  background: #222;
+}
+
+.member {
+  margin: 40px auto;
+  width: 1105px;
+  height: 650px;
+  /* border: 1px solid red; */
+}
+
+.subject {
+  color: #eee;
+  font-size: 22px;
+}
+.member_table1,
+.member_table2 {
+  margin-top: 30px;
+  border-collapse: collapse;
+  color: #eee;
+  font-size: 13px;
+}
+.member_table1 th, td,
+.member_table2 th, td{
+  border: 1px solid #333;
+}
+.member th {
+  background-color: #2a2a2a;
+}
+#id input, #id span, #nic input, #pw input, #name input,
+#nic span, #mail input, #phone input, .zip, .addr1, .addr2, #address span {
+  margin-left: 5px;
+}
+#id input, #nic input, #nic span {
+  display: block;
+}
+#id input, #pw input, #phone input {
+  width: 163px;
+  height: 25px;
+  border: 1px solid #555;
+  background-color: #222;
+  color: #eee;
+}
+#name input, #nic input {
+  width: 97px;
+  height: 25px;
+  border: 1px solid #555;
+  background-color: #222;
+  color: #eee;
+}
+#mail input, .addr1, .addr2 {
+  width: 790px;
+  height: 25px;
+  border: 1px solid #555;
+  background-color: #222;
+  color: #eee;
+}
+.zip {
+  width: 63px;
+  height: 25px;
+  border: 1px solid #555;
+  background-color: #222;
+  color: #eee;
+}
+
+#address span, .addr1, .addr2 {
+  display: block;
+}
+
+#id th, #nic th{
+  width: 120px;
+  height: 65px;
+}
+#id td, #nic td {
+  width: 995px;
+}
+
+#pw th, #name th, #mail th, #phone th {
+  width: 120px;
+  height: 40px;
+}
+#pw td, #name td, #mail td #phone td {
+  width: 995px;
+}
+#addr_search {
+  margin-top: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+#address input[type="button"]:hover {
+  background-color: #666;
+}
+#id input[type="text"], #pw input[type="password"],
+#name input[type="text"], #nic input[type="text"],
+#mail input[type="text"], #phone input[type="text"],
+#zip, #addr1, #addr2 {
+  outline: none;
+}
+
+#id input[type="text"]:hover, #pw input[type="password"]:hover,
+#name input[type="text"]:hover, #nic input[type="text"]:hover,
+#mail input[type="text"]:hover, #phone input[type="text"]:hover,
+#zip:hover, #addr1:hover, #addr2:hover {
+  border: 1px solid #fff;
+}
+#id input[type="text"]:focus, #pw input[type="password"]:focus,
+#name input[type="text"]:focus, #nic input[type="text"]:focus,
+#mail input[type="text"]:focus, #phone input[type="text"]:focus,
+#zip:focus, #addr1:focus, #addr2:focus {
+  border: 1px solid #aa0000;
+}
+
+.sign_submit {
+  width: 150px;
+  height: 50px;
+  margin: 30px auto;
+  text-align: center;
+  display: flex;
+  width: 81px;
+}
+.sign_submit input[type="button"]:nth-child(1) {
+  width: 81px;
+  height: 31px;
+  border: none;
+  background-color: #5a38a0;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.sign_submit input[type="button"]:nth-child(2) {
+  width: 50px;
+  height: 31px;
+  border: none;
+  background-color: #3a3a3a;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.sign_submit input[type="button"]:hover {
+  filter: brightness(1.5);
+}

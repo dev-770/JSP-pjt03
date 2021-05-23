@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrap {
+  width: 100%;
+  overflow: hidden;
+}
+body {
+  background-color: #222222;
+}
+a {
+  text-decoration: none;
+}
+.skin {
+  width: 980px;
+  height: 475px;
+  margin: 78px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.member_box {
+  display: flex;
+}
+h1 {
+  color: #eeeeee;
+  font-size: 32px;
+}
+h2 {
+  color: #eeeeee;
+  font-size: 22px;
+  padding: 20px 20px;
+}
+
+.member {
+  width: 484px;
+  height: 210px;
+  border: 1px solid #555555;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.login {
+  display: flex;
+  padding: 0 20px;
+}
+.login_put {
+  display: flex;
+  flex-direction: column;
+}
+.login_put input {
+  width: 321px;
+  height: 35px;
+  border: 1px solid #555555;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #222222;
+  color:#fff
+}
+.login_put input::placeholder {
+  padding: 10px;
+}
+.login_put input:hover {
+  border: 1px solid #fff;
+} 
+.login_put input:focus {
+  border: 1px solid #aa0000;
+}
+#btn {
+  width: 77px;
+  height: 77px;
+  background: #5a38f0;
+  color: #eeeeee;
+  margin-left: 20px;
+}
+#auto {
+  padding: 0 20px 20px;
+}
+#auto_txt {
+  margin-left: 5px;
+  color: #eeeeee;
+  font-size: 14px;
+}
+
+.sign {
+  width: 396px;
+  height: 210px;
+  border: 1px solid #555555;
+}
+.sign p {
+  color: #eeeeee;
+  font-size: 14px;
+  padding: 20px 80px 20px 20px;
+}
+.sign_btn {
+  width: 325px;
+  height: 37px;
+  position: relative;
+}
+.sign_btn a {
+  font-size: 14px;
+  color: #eeeeee;
+  padding: 8px 10px 8px 10px;
+  background: #555555;
+  position: absolute;
+  right: 0;
+}
+.guide h3 {
+  color: #eeeeee;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.guide p {
+  color: #eeeeee;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.id_idx {
+  display: flex;
+  justify-content: flex-end;
+}
+.id_idx a {
+  color: #eeeeee;
+  font-size: 14px;
+  background: #3a3a3a;
+  border: 1px solid #555555;
+  padding: 5px 8px 5px 8px;
+  margin: 10px;
+}

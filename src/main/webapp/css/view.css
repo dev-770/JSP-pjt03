@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.container ul li span {
+  margin-right: 2px;
+}
+
+section{
+  background-color: #222;
+  color: #fff;
+}
+#section1{
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+#section2{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.container {
+  width: 1100px;
+  /*border: 1px solid #fff;*/
+  margin: auto;
+}
+.title {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+.sub {
+  display: flex;
+  justify-content: space-between;
+}
+.sub span {
+  color: #AAAAAA;
+  font-size: 14px;
+}
+
+.sub .val {
+  color: #dddddd;
+  font-size: 13px;
+}
+
+.btn {
+  position: relative;
+  top: 20px;
+  font-size: 14px;
+}
+.c_btn {
+  border: 1px solid #666;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 6px;
+  background-color: #222;
+}
+
+.l_btn {
+  border: 1px solid #666;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 6px;
+  background-color: #666;
+}
+
+.c_btn:hover, .l_btn:hover {
+  background-color: #AAAAAA;
+}
+
+.writer_btn {
+  width: 100%;
+  padding-top:10px;
+  text-align: right;
+}
+
+#update, #delete{
+  border: 1px solid #666;
+  background-color: #222;
+  color: #fff;
+  border-radius: 5px;
+  padding: 6px 6px;
+  cursor: pointer;
+}
+
+#update:hover, #delete:hover{
+  background-color: #AAAAAA;
+}
+
+.content {
+  display: inline-block;
+  font-size: 17px;
+  padding-top: 50px;
+}
+.content img {
+	display: block;
+}
+
+.comment_box{
+  background-color: #1E1E1E;
+}
+
+.comment li span {
+  font-weight: 700;
+}
+.ment_val {
+  font-weight: 400;
+  color: #dddddd;
+}
+
+.comment_list{
+  margin: 10px 0;
+}
+
+.comment_list li div {
+  width: 1090px;
+  padding: 10px 0 10px 10px;
+  border: 1px solid #666;
+  font-size: 14px;
+}
+#comment {
+  margin-top: 10px;
+  width: 1000px;
+  height: 70px;
+  background-color: #222;
+  color: #fff;
+  outline: none;
+}
+#comment:hover {
+  border: 1px solid #fff;
+}
+#comment:focus {
+  border: 1px solid #aa0000;
+}
+#comment_btn {
+  position: relative;
+  top: -30px;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #666;
+  background-color: #444;
+  color: #fff;
+  cursor: pointer;
+}
+#comment_btn:hover {
+  background-color: #AAAAAA;
+}

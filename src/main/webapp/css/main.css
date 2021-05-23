@@ -1,0 +1,271 @@
+.main-slide {
+  width: 100%;
+  margin: auto;
+}
+
+
+.swiper-pagination {
+  top:78%;
+}
+.swiper-pagination-bullet {
+  background: #fff;
+  padding: 10px;
+}
+.swiper-pagination-bullet-active {
+  color:#fff;
+}
+.swiper-button-prev, .swiper-button-next {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+.swiper-button-prev img {
+  width:120%;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(317deg) brightness(103%) contrast(102%);
+}
+.swiper-button-prev img:hover {
+  filter: invert(43%) sepia(82%) saturate(3953%) hue-rotate(337deg) brightness(98%) contrast(92%);
+}
+.swiper-button-next img {
+  width:120%;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(317deg) brightness(103%) contrast(102%);
+}
+.swiper-button-next img:hover {
+  filter: invert(43%) sepia(82%) saturate(3953%) hue-rotate(337deg) brightness(98%) contrast(92%);
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+  display: none;
+}
+
+.showing {
+  z-index: 1;
+  opacity: 1;
+}
+.new {
+  margin: 2em 0 1.5em 0;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.multi {
+  padding: 20px;
+  width: 92rem;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.multi img {
+  width: 100%;
+  height: 250px;
+}
+.multi a {
+  font-size: 1.4rem;
+  color: #000;
+}
+
+
+#prev img {
+  position: absolute;
+  height:40px;
+  top: 0px;
+  left: 5px;
+  filter: invert(79%) sepia(46%) saturate(6384%) hue-rotate(208deg) brightness(107%) contrast(99%);
+}
+#next img {
+  position: absolute;
+  height:40px;
+  top: 0px;
+  right: 5px;
+  filter: invert(79%) sepia(46%) saturate(6384%) hue-rotate(208deg) brightness(107%) contrast(99%);
+}
+#next img:hover, #prev img:hover {
+  filter: invert(38%) sepia(18%) saturate(5004%) hue-rotate(225deg) brightness(94%) contrast(93%);
+}
+
+
+
+#section3 {
+  width: 100%;
+  height: 127px;
+  background: #003458 ; /*#edacd1*/
+}
+.add_box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 127px;
+  align-items: center;
+} 
+
+.facebook {
+  margin-right: 5rem;
+  width: 27.8em;;
+}
+
+.store {
+  margin-right: 5em;
+  width: 27.8em;
+}
+
+.blog {
+  width: 27.8em;
+}
+
+.board_service {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.board_flex {
+  display: flex;
+}
+.notice {
+  width: 300px;
+  margin-right: 2em;
+}
+.notice_subject {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+}
+
+.notice_content {
+  padding: 1rem;
+  font-size: 1.2em;
+}
+.notice a {
+  color: #000;
+}
+.notice li {
+  padding-top: 0.1em;
+}
+
+.news {
+  width: 300px;
+  margin-right: 2em;
+}
+.news_subject {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+}
+
+.news_content {
+  padding: 1rem;
+  font-size: 1.2em;
+  white-space:  nowrap;
+}
+.news a {
+  color: #000;
+}
+.news li {
+  padding-top: 0.1em;
+}
+
+.service_item {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.service_item img {
+  width: 19em;
+  padding: 0.3em;
+}
+
+@media screen and (max-width: 1000px) {
+  .multi {
+    width: 50rem;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .multi img {
+    width: 100%;
+    height: 200px;
+  }
+  .facebook span {
+    font-weight: 700;
+    color: #8977ad;
+    font-size: 1.5rem;
+    font-family: 'Nanum Pen Script', cursive;
+  }
+  .facebook strong {
+    font-size: 2rem;
+    color: blue;
+    font-family: 'RocknRoll One', sans-serif;
+  }
+  
+  .store span {
+    font-weight: 700;
+    color: #8977ad;
+
+    font-size: 1.5rem;
+    font-family: 'Nanum Pen Script', cursive;
+  }
+  .store strong {
+    font-size: 1.5rem;
+    color: blue;
+    font-family: 'RocknRoll One', sans-serif;
+  }
+  
+  .blog span {
+    font-weight: 700;
+    color: #8977ad;
+    font-size: 1.5rem;
+    font-family: 'Nanum Pen Script', cursive;
+  }
+  .blog strong {
+    font-size: 1.5rem;
+    color: blue;
+    font-family: 'RocknRoll One', sans-serif;
+  }
+}
+@media screen and (max-width: 800px) {
+  .multi {
+    width: 23rem;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .multi img {
+    width: 100%;
+    height: 150px;
+  }
+  #section3 {
+    width: 100%;
+    height: 300px;
+    background: #003458 ; /*#edacd1*/
+  }
+  .add_box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    justify-content: space-around;
+    height: 300px;
+  }
+  .facebook,
+  .store {
+    margin: 0;
+  }
+  .board_service {
+    display: flex;
+    flex-direction: column;
+  }
+  .service_item {
+    width: 500px;
+    height: 350px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .board_flex {
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
